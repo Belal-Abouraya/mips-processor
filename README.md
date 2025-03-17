@@ -2,6 +2,13 @@
 
 This repository contains a Verilog implementation of a 5-stage pipelined MIPS processor that supports a custom set of instructions, including an Artificial Neural Network (ANN) instruction. The processor is designed to handle data and structural hazards automatically using a hazards unit, which resolves conflicts via forwarding or stalls.
 
+## Repository Contents
+
+The repository includes the following:
+- **Source Files**: Verilog implementation of the processor, including the pipeline stages, hazard unit, and custom ANN logic.
+- **Test Benches**: Test benches for verifying the functionality of each component of the processor as well as three assembly programs (inside the inst_memory.v file) testing the full functionality of the processor.
+- **Waveform Configuration Files**: Pre-configured waveform files for use with Verilog simulators to visualize and debug the processor's behavior.
+
 ## Supported Instructions
 
 The processor implements the following instructions:
